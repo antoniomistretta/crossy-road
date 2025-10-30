@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+    --padding-safe-top: env(safe-area-inset-top);
+    --padding-safe-right: env(safe-area-inset-right);
+    --padding-safe-bottom: env(safe-area-inset-bottom);
+    --padding-safe-left: env(safe-area-inset-left);
+}
